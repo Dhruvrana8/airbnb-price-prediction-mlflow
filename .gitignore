@@ -210,3 +210,5 @@ __marimo__/
 # Data file
 # For this project we will be calling the data from the S3 bucket
 data/
+
+*/mlruns/
