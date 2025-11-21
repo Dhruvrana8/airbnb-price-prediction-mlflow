@@ -122,12 +122,14 @@ Based on the validation set, the models performed as follows:
 ## 📂 Directory Structure
 
 ```
-├── images/                  # Store your screenshots here
+├── assets
+│   └── images
 │       ├── AirBnb Price Prediction Model.png
 │       ├── Ml Flow Main Screen.png
 │       └── Random Forest Model.png
 ├── mlruns/                  # MLflow local tracking logs
-├── index.ipynb              # Main project notebook
+├── notebook
+│   └── index.ipynb          # Main Python Code
 ├── requirements.txt         # Python dependencies
 ├── README.md                # Project documentation
 └── .env                     # AWS Credentials (Not committed)
